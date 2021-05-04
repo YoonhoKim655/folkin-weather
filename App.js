@@ -1,25 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import Loading from "./Loading";
+import * as Location from "expo-laction";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style = {styles.text}>Hello!!!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'red',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    color : "white",
-    width : "100%"
+export default class extends React.Component {
+  getLocation = async() => {
+    const location = await Location.getCurrentPositionAsync(options);
+    console.log(location);
   }
-});
+  componentDidMount() {
+    this.getLocation();
+  }
+  render(){
+    <Loading />;
+  }
+} 
