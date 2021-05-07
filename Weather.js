@@ -7,49 +7,49 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 const weatherOptions ={
     Thunderstorm:{
         iconName : "weather-lightning",
-        gradient: ["#485563", "#29323c"],
+        gradient: ["#2c3e50","#bdc3c7"],
         title: "Thunderstorm",
         subtitle : ""
     },
     Drizzle:{
         iconName : "weather-partly-rainy",
-        gradient: ["#00d2ff", "#3a7bd5"],
+        gradient: ["#B2FEFA", "#0ED2F7"],
         title: "Drizzle",
         subtitle : ""
     },
     Rain:{
         iconName : "weather-rainy",
-        gradient: ["#667db6", "#0082c8", "#0082c8", "#667db6"],
+        gradient: ["#525252", "#3d72b4"],
         title: "Rain",
         subtitle : ""
     },
     Snow:{
         iconName : "weather-snowy-heavy",
-        gradient: ["#4c669f", "#6DD5FA", "#FFFFFF"],
+        gradient: ["#83a4d4", "#b6fbff"],
         title: "Snow",
         subtitle : ""
     },
     Clear:{
         iconName : "white-balance-sunny",
-        gradient: ["#00c6ff", "#0072ff"],
+        gradient: ["#2980B9", "#6DD5FA", "#ffffff"],
         title: "Clear",
         subtitle : ""
     },
     Clouds:{
         iconName : "cloud-outline",
-        gradient: ['#525252','#3d72b4'],
+        gradient: ['#7F7FD5','#86A8E7', '#91EAE4'],
         title: "Cloud",
         subtitle : ""
     },
     Haze:{
         iconName : "weather-hazy",
-        gradient: ["#e1eec3", "#f05053"],
+        gradient: ["#ffecd2", "#fad0c4"],
         title: "Haze",
         subtitle : ""
     },
     Mist:{
         iconName : "water",
-        gradient: ["#6190E8", "#A7BFE8"],
+        gradient: ["#a1c4fd", "#c2e9fb"],
         title: "Mist",
         subtitle : ""
     },
@@ -61,37 +61,37 @@ const weatherOptions ={
     },
     Dust:{
         iconName : "weather-fog",
-        gradient: ["#bdc3c7", "#2c3e50"],
+        gradient: ["#8693ab", "#bdd4e7"],
         title: "Dust",
         subtitle : ""
     },
     Fog:{
         iconName : "weather-fog",
-        gradient: ["#ffd89b", "#19547b"],
+        gradient: ["#C9D6FF", "#E2E2E2"],
         title: "Fog",
         subtitle : ""
     },
     Sand:{
         iconName : "weather-fog",
-        gradient: ["#3E5151", "#DECBA4"],
+        gradient: ["#D1913C", "#FFD194"],
         title: "Sand",
         subtitle : ""
     },
     Ash:{
         iconName : "weather-fog",
-        gradient: ["#606c88", "#3f4c6b"],
+        gradient: ["#d5d0e5", "#f3e6e8"],
         title: "Ash",
         subtitle : ""
     },
     Squall:{
         iconName : "weather-windy-variant",
-        gradient: ["#314755", "#26a0da"],
+        gradient: ["#2c3e50", "#2980b9"],
         title: "Squall",
         subtitle : ""
     },
     Tornado:{
         iconName : "weather-tornado",
-        gradient: ["#0f2027", "#203a43", "#2c5364"],
+        gradient: ["#243949", "#517fa4"],
         title: "Tornado",
         subtitle : ""
     }
